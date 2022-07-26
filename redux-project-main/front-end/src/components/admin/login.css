@@ -4,6 +4,26 @@
     background-size:cover;
     position:relative;
   }
+
+  form{
+    width: 500px;
+    height: auto;
+    display: inline-block;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+  border-bottom-style: solid;
+  border: solid 2px #50e54b!important;
+  padding: 10px;
+
+  box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
+  }
+
+  body {
+    text-align: center;
+  }
+
   
   .login-dark form {
     max-width:320px;

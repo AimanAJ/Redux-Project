@@ -21,11 +21,12 @@ export const addItem = createAsyncThunk(
         const response = await axios.post('http://127.0.0.1:8000/api/add_item',item);
         
         if(response.status ==200){
-            Swal.fire({
-                title: "Item",
-                text: "Has been Added Successfully",
-                type: "success"
-            });
+            // Swal.fire({
+            //     title: "Item",
+            //     text: "Has been Added Successfully",
+            //     type: "success"
+            // });
+            alert("item Added Successfully");
         }
         return response.data;
     }
@@ -43,11 +44,12 @@ export const updateItem = createAsyncThunk(
         })
         
         if(response.ok){
-            Swal.fire({
-                title: "Item",
-                text: "Has been updated Successfully",
-                type: "success"
-            });
+            // Swal.fire({
+            //     title: "Item",
+            //     text: "Has been updated Successfully",
+            //     type: "success"
+            // });
+            alert("item updated Successfully");
         }
         const res = response.json();
         return res;
@@ -64,11 +66,12 @@ export const deleteItem = createAsyncThunk(
             
         })
         if(response.ok){
-            Swal.fire({
-                title: "Item",
-                text: "Has been deleted Successfully",
-                type: "success"
-            });
+            // Swal.fire({
+            //     title: "Item",
+            //     text: "Has been deleted Successfully",
+            //     type: "success"
+            // });
+            alert("item deleted Successfully");
         }
         const res = response.json();
         return res;
