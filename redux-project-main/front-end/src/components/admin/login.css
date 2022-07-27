@@ -1,9 +1,9 @@
-.login-dark {
+/* .login-dark {
     height:1000px;
     background:#475d62 url(sky.jpg);
     background-size:cover;
     position:relative;
-  }
+  } */
 
   form{
     width: 500px;
@@ -14,7 +14,7 @@
     margin-bottom: 50px;
     border-radius: 25px;
   border-bottom-style: solid;
-  border: solid 2px #50e54b!important;
+  border: solid 2.5px #676a73!important;
   padding: 10px;
 
   box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
@@ -24,7 +24,7 @@
     text-align: center;
   }
 
-  
+/*   
   .login-dark form {
     max-width:320px;
     width:90%;
@@ -88,5 +88,5 @@
   
   .login-dark form .btn-primary:active {
     transform:translateY(1px);
-  }
+  } */
   

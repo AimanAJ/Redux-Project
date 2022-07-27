@@ -30,10 +30,11 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <a class="navbar-brand mt-2 mt-lg-0" href="#">
               <img
-                src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+                src="https://i.pinimg.com/originals/05/fa/f4/05faf44cf457b0b583e977590b37f635.png"
                 height="15"
                 alt="MDB Logo"
                 loading="lazy"
+                style={{ width: "3rem" ,height:"auto"}}
               />
             </a>
 

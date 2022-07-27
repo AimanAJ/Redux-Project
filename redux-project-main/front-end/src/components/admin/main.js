@@ -11,7 +11,7 @@ const Main = ()=>{
     return(
     <tr key={item.id}>
         <th className="p-3 text-center align-middle">{item.id}</th>
-        <td className="p-3 text-center align-middle"><img src={ "http://localhost:8000/uploads/" + item.image } width="120px" /></td>
+        <td className="p-3 text-center align-middle"><img  style={{width:"120px"}} src={ "http://localhost:8000/uploads/" + item.image }  /></td>
         <td className="p-3 text-center align-middle">{item.name}</td>
         <td className="p-3 text-center align-middle">{item.description}</td>
         <td className="p-3 text-center align-middle">

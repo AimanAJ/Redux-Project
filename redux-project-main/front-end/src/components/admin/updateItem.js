@@ -58,6 +58,11 @@ const UpdateItem = ()=>{
 
     <form onSubmit={handleSubmit}>
         <h3>Update Item</h3>
+
+        <div className="my-4">
+        <img src={ "http://localhost:8000/uploads/"+ itemData.image } width="120px" />
+    </div>
+    
             <div className="form-outline mb-4">
                 <label className="form-label" >Name</label>
                 <input 
@@ -86,9 +91,7 @@ const UpdateItem = ()=>{
             </div>
 
 
-    <div className="my-4">
-        <img src={ "http://localhost:8000/uploads/"+ itemData.image } width="120px" />
-    </div>
+
 
 
             <button type="submit" className="btn btn-primary btn-block mb-4">Update</button>

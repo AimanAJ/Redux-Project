@@ -50,7 +50,21 @@ const AddItem = ()=>{
     return(
     <div className="container m-5 p-5" >
     <form onSubmit={handleSubmit}>
-        <h3>Add New Item</h3>
+    <h3>Add New Item</h3>
+
+    <div className="form-outline mb-4">
+                <label className="form-label" >Image</label>
+                <input 
+                    type="file" 
+                    className="form-control" 
+                    name="image" 
+                    onChange={handleChangeImage}
+                    multiple
+                />
+            </div>
+
+
+        
             <div className="form-outline mb-4">
                 <label className="form-label" >Name</label>
                 <input
@@ -63,16 +77,7 @@ const AddItem = ()=>{
             </div>
 
 
-            <div className="form-outline mb-4">
-                <label className="form-label" >Image</label>
-                <input 
-                    type="file" 
-                    className="form-control" 
-                    name="image" 
-                    onChange={handleChangeImage}
-                    multiple
-                />
-            </div>
+            
 
             <div className="form-outline mb-4">
                 <label className="form-label" >Description</label>
